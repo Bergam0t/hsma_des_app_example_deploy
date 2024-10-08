@@ -10,6 +10,8 @@ with open("style.css") as css:
 
 st.title("Welcome to the simulation app")
 
+st.write("This is my update")
+
 st.write("Here's loads of information about what we're doing")
 
 st.session_state["num_nurses_slider"] = st.slider(
